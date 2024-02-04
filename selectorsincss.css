@@ -1,0 +1,133 @@
+body{
+    background-color: aliceblue;
+}
+#topbar{
+    background-color:white;
+    padding: 29px 48px;
+    border-bottom: 1px solid #ccc;
+    margin: 0%;
+    width: auto;
+    padding-left: 0%;
+    box-shadow: 2px 2px grey;
+}
+#logo{
+    color: blue;
+    font-weight: 75px;
+    margin-left: 36px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-size: 25px;
+}
+.menu-item{
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    margin-right: 12px;
+    font-family:'Raleway', sans-serif; 
+    padding-left: 32px;
+    float: right;
+    font-size: 15px;
+    cursor: pointer;
+}
+article{
+    padding: 18px;
+    background-color: white;
+    line-height: px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #aaa;
+    margin-top: 62px;
+    margin-left: 112px;
+    margin-right: 112px;
+    margin-bottom: 62px;
+}
+.heading{
+    font-size: 36 px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+/*Descendant selector*/
+/* article p{
+    font-size:18px
+    background-color:lightcoral;
+}*/
+/* Child Selector*/
+/* article > p { 
+    background-color::afterlightcoral;
+}*/
+
+/* Adjacent Siblings
+div + p{
+    background-color: lightblue;
+}*/
+/*
+h1 + p{
+    background-color: lightgreen;
+}
+*/
+
+/* General Sibling Selector
+div ~ p{
+    background-color: lightcoral;
+}*/
+
+ /*select the first paragraph of each type
+article > p:first-of-type{
+    background-color: lightcoral;*/
+
+/*select the last paragraph of each type
+article > p:last-of-type{
+    background-color: lightcoral;
+}*/
+/*select the second paragraph of each article
+article > p:nth-of-type(2){
+    background-color: lightcoral;
+}*/
+ /*select the second last paragraph of each type
+article > p:nth-last-of-type(2){
+    background-color: lightcoral;
+}*/
+ /*select paragraph which is first child inside the article
+article > p:first-child{
+    background-color: lightcoral;
+}*/
+/*select the child which is last in each article
+ article > p:last-child{
+    background-color: lightcoral;
+}*/
+/*select the paragraph which is second child of each article
+article > p:nth-child(2){
+    background-color: lightcoral;
+}*/
+/*select the paragraph which is second last child of ech article
+article > p:nth-last-child(2){
+    background-color: lightcoral;
+}*/
+/*
+article > p{
+    background-color: lightcoral;
+}*/
+/* pseudo elements
+article > P::first-line{
+    letter-spacing: 1.3px;
+   
+    color: lightgreen;
+}
+article > p::first-letter{
+    font-size: 36px;
+    color: #ccc;
+}*/
+/*
+article > P::selection{
+    background-color: lightblue;
+    color:black;
+}*/
+/*
+article > p::before{
+    content:"/*";
+}*/
+/*
+article > p::after{
+    content: "";
+}*/
