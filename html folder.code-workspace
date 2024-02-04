@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../GITDEMO5"
+		}
+	],
+	"settings": {
+		"svg.preview.background": "editor"
+	}
+}
